@@ -150,7 +150,7 @@ async def schedule_guide_click_nudge(user_id: int, chat_id: int) -> None:
             text=caption, 
             reply_markup=InlineKeyboardMarkup(
                 inline_keyboard=[[
-                    InlineKeyboardButton(text="МОЯ ЛИЧКА", url='https://t.me/m/DXOvBqIPZjM6')
+                    InlineKeyboardButton(text="МОЯ ЛИЧКА", url='https://t.me/m/0-4vKeqhMmEy')
                 ]]), 
             parse_mode=ParseMode.HTML
         )
@@ -382,7 +382,7 @@ async def handle_motivation(message: types.Message, state: FSMContext):
     await state.clear()
     text = '''Огонь, вижу твои ответы🔥
 
-Напиши в личку <a href="https://t.me/m/DXOvBqIPZjM6">ССЫЛКА</a> и я скину тебе гайд
+Напиши в личку <a href="https://t.me/m/0-4vKeqhMmEy">ССЫЛКА</a> и я скину тебе гайд
 (В боте не у всех открывается в гайд, поэтому лично отправлю тебе)
 '''
     await message.answer(
